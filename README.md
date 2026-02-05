@@ -19,14 +19,14 @@ npx skills add pubnub/skills
 
 ## Available Skills
 
-| Skill | Description | Install |
-|-------|-------------|---------|
-| [pubnub-app-developer](./pubnub-app-developer) | Core pub/sub messaging, channels, SDK patterns | `tessl skill install pubnub:pubnub-app-developer` |
-| [pubnub-presence](./pubnub-presence) | Real-time user online/offline status, occupancy | `tessl skill install pubnub:pubnub-presence` |
-| [pubnub-functions](./pubnub-functions) | Serverless edge functions, webhooks, KVStore | `tessl skill install pubnub:pubnub-functions` |
-| [pubnub-security](./pubnub-security) | Access Manager, AES-256 encryption, TLS | `tessl skill install pubnub:pubnub-security` |
-| [pubnub-chat](./pubnub-chat) | Chat SDK, messaging, typing indicators, reactions | `tessl skill install pubnub:pubnub-chat` |
-| [pubnub-scale](./pubnub-scale) | High-volume optimization, channel groups, persistence | `tessl skill install pubnub:pubnub-scale` |
+| Skill | Description |
+|-------|-------------|
+| [pubnub-app-developer](./pubnub-app-developer) | Core pub/sub messaging, channels, SDK patterns |
+| [pubnub-presence](./pubnub-presence) | Real-time user online/offline status, occupancy |
+| [pubnub-functions](./pubnub-functions) | Serverless edge functions, webhooks, KVStore |
+| [pubnub-security](./pubnub-security) | Access Manager, AES-256 encryption, TLS |
+| [pubnub-chat](./pubnub-chat) | Chat SDK, messaging, typing indicators, reactions |
+| [pubnub-scale](./pubnub-scale) | High-volume optimization, channel groups, persistence |
 
 For more details, see the [CLI documentation](https://skills.sh/docs/cli).
 
