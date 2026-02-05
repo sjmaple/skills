@@ -2,6 +2,21 @@
 
 A comprehensive set of skills for building real-time applications with PubNub's platform. Each skill provides focused guidance, code examples, and best practices for specific PubNub capabilities.
 
+## Quick Start
+
+### Tessl Install PubNub Skills
+
+```bash
+npx tessl skill search pubnub
+```
+### Vercel Skills Install PubNub Skills
+
+The skills CLI requires no installation and can be run directly using npx:
+
+```bash
+npx skills add pubnub/skills
+```
+
 ## Available Skills
 
 | Skill | Description | Install |
@@ -13,48 +28,7 @@ A comprehensive set of skills for building real-time applications with PubNub's 
 | [pubnub-chat](./pubnub-chat) | Chat SDK, messaging, typing indicators, reactions | `tessl skill install pubnub:pubnub-chat` |
 | [pubnub-scale](./pubnub-scale) | High-volume optimization, channel groups, persistence | `tessl skill install pubnub:pubnub-scale` |
 
-## Quick Start
-
-### Install the CLI
-
-The skills CLI requires no installation and can be run directly using npx:
-
-```bash
-npx skills add <skill-name>
-```
-
-Alternatively, install globally:
-
-```bash
-npm install -g skills
-```
-
 For more details, see the [CLI documentation](https://skills.sh/docs/cli).
-
-### Search for Skills
-
-```bash
-tessl skill search pubnub
-```
-
-### Install a Skill
-
-Using the tessl CLI:
-
-```bash
-tessl skill install pubnub:pubnub-app-developer
-```
-
-Using npx (no installation required):
-
-```bash
-npx skills add pubnub/pubnub-app-developer
-npx skills add pubnub/pubnub-presence
-npx skills add pubnub/pubnub-functions
-npx skills add pubnub/pubnub-security
-npx skills add pubnub/pubnub-chat
-npx skills add pubnub/pubnub-scale
-```
 
 ### Use in Claude Code
 
@@ -171,12 +145,14 @@ To publish a new skill to the `pubnub` workspace:
 tessl skill publish --workspace pubnub --public ./skills/<skill-name>
 ```
 
-### Publish All Skills
+### Publish All Skills (admin-only)
 
 To publish or update all PubNub skills:
 
 ```bash
 # From the tessl directory
+npm i -g @tessl/cli
+tessl login
 tessl skill publish --workspace pubnub --public ./skills/pubnub-app-developer
 tessl skill publish --workspace pubnub --public ./skills/pubnub-presence
 tessl skill publish --workspace pubnub --public ./skills/pubnub-functions
@@ -253,4 +229,4 @@ All skills are currently at version `0.1.0`.
 
 ## License
 
-MIT
+PubNub
