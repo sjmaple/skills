@@ -1,0 +1,11 @@
+{
+  "name": "pubnub/pubnub-chat",
+  "version": "0.1.0",
+  "private": false,
+  "summary": "Build chat applications with PubNub Chat SDK",
+  "skills": {
+    "pubnub-chat": {
+      "path": "SKILL.md"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pubnub/pubnub-functions",
+  "version": "0.1.0",
+  "private": false,
+  "summary": "Develop serverless edge functions with PubNub Functions 2.0",
+  "skills": {
+    "pubnub-functions": {
+      "path": "SKILL.md"
+    }
+  }
+}

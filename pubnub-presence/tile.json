@@ -1,0 +1,11 @@
+{
+  "name": "pubnub/pubnub-presence",
+  "version": "0.1.0",
+  "private": false,
+  "summary": "Implement real-time presence tracking with PubNub",
+  "skills": {
+    "pubnub-presence": {
+      "path": "SKILL.md"
+    }
+  }
+}
