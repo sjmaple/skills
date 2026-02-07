@@ -4,7 +4,7 @@ description: Scale PubNub applications for high-volume real-time events
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, scale, performance, channel groups, wildcards, optimization
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `scaling-patterns.md` | Channel groups, wildcards, connection pooling |
-| `performance.md` | Message optimization, payload sizing, batching |
-| `persistence.md` | Message history, storage options, retrieval patterns |
+| [scaling-patterns.md](references/scaling-patterns.md) | Channel groups, wildcards, connection pooling |
+| [performance.md](references/performance.md) | Message optimization, payload sizing, batching |
+| [persistence.md](references/persistence.md) | Message history, storage options, retrieval patterns |
 
 ## Key Implementation Requirements
 

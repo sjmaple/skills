@@ -1,6 +1,6 @@
 {
   "name": "pubnub/pubnub-live-voting",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "summary": "Build real-time voting and polling systems with PubNub",
   "skills": {

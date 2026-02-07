@@ -377,7 +377,7 @@ All skills are published to the `pubnub` workspace on tessl.io.
 
 ## Version
 
-All skills are currently at version `0.1.0`.
+All skills are currently at version `0.1.2`.
 
 ## License
 

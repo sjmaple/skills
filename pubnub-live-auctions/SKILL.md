@@ -4,7 +4,7 @@ description: Build real-time auction platforms with PubNub bidding and countdown
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, auction, bidding, countdown, bid validation, live auction, reserve price
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `auction-setup.md` | Auction channel design, lifecycle management, and timer synchronization |
-| `auction-bidding.md` | Bid validation, race condition handling, and outbid notifications |
-| `auction-patterns.md` | Reserve prices, auto-extend, proxy bidding, and analytics |
+| [auction-setup.md](references/auction-setup.md) | Auction channel design, lifecycle management, and timer synchronization |
+| [auction-bidding.md](references/auction-bidding.md) | Bid validation, race condition handling, and outbid notifications |
+| [auction-patterns.md](references/auction-patterns.md) | Reserve prices, auto-extend, proxy bidding, and analytics |
 
 ## Key Implementation Requirements
 

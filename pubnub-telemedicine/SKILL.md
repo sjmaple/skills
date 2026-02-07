@@ -4,7 +4,7 @@ description: Build HIPAA-compliant telemedicine apps with PubNub real-time messa
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, telemedicine, hipaa, telehealth, patient queue, healthcare, video chat, appointment
   role: specialist
@@ -45,9 +45,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `telemedicine-setup.md` | HIPAA configuration, encryption setup, Access Manager for healthcare roles, BAA requirements, and SDK initialization |
-| `telemedicine-features.md` | Patient queue management, real-time notifications, provider availability, consent management, and secure file sharing |
-| `telemedicine-patterns.md` | Consultation workflows, WebRTC video signaling, audit logging, multi-provider sessions, and emergency escalation |
+| [telemedicine-setup.md](references/telemedicine-setup.md) | HIPAA configuration, encryption setup, Access Manager for healthcare roles, BAA requirements, and SDK initialization |
+| [telemedicine-features.md](references/telemedicine-features.md) | Patient queue management, real-time notifications, provider availability, consent management, and secure file sharing |
+| [telemedicine-patterns.md](references/telemedicine-patterns.md) | Consultation workflows, WebRTC video signaling, audit logging, multi-provider sessions, and emergency escalation |
 
 ## Key Implementation Requirements
 

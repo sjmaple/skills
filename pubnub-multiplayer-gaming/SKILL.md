@@ -4,7 +4,7 @@ description: Build real-time multiplayer games with PubNub game state sync
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, multiplayer, gaming, game state, player matching, game rooms, lobby, sync
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `gaming-setup.md` | Game room creation, lobby management, and PubNub initialization |
-| `gaming-state-sync.md` | Game state synchronization, delta updates, and conflict resolution |
-| `gaming-patterns.md` | Matchmaking, turn-based/real-time patterns, anti-cheat, and leaderboards |
+| [gaming-setup.md](references/gaming-setup.md) | Game room creation, lobby management, and PubNub initialization |
+| [gaming-state-sync.md](references/gaming-state-sync.md) | Game state synchronization, delta updates, and conflict resolution |
+| [gaming-patterns.md](references/gaming-patterns.md) | Matchmaking, turn-based/real-time patterns, anti-cheat, and leaderboards |
 
 ## Key Implementation Requirements
 

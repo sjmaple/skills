@@ -1,6 +1,6 @@
 {
   "name": "pubnub/pubnub-live-sport-updates",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "summary": "Deliver real-time sports scores, play-by-play, and scoreboards with PubNub",
   "skills": {

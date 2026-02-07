@@ -4,7 +4,7 @@ description: Develop serverless edge functions with PubNub Functions 2.0
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, functions, serverless, edge, kvstore, webhook, transform
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `functions-basics.md` | Function structure, event types, async/await patterns |
-| `functions-modules.md` | KVStore, XHR, Vault, Crypto, JWT, UUID modules |
-| `functions-patterns.md` | Common patterns: counters, aggregation, webhooks |
+| [functions-basics.md](references/functions-basics.md) | Function structure, event types, async/await patterns |
+| [functions-modules.md](references/functions-modules.md) | KVStore, XHR, Vault, Crypto, JWT, UUID modules |
+| [functions-patterns.md](references/functions-patterns.md) | Common patterns: counters, aggregation, webhooks |
 
 ## Key Implementation Requirements
 

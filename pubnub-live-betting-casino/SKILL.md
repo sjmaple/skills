@@ -4,7 +4,7 @@ description: Build real-time betting and casino game platforms with PubNub
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, betting, casino, odds, wager, live betting, in-play, game state
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `betting-setup.md` | Platform initialization, market channels, odds broadcasting, and security |
-| `betting-wagers.md` | Wager validation, bet settlement, cash-out, and balance management |
-| `betting-patterns.md` | Casino game sync, in-play patterns, responsible gambling, and compliance |
+| [betting-setup.md](references/betting-setup.md) | Platform initialization, market channels, odds broadcasting, and security |
+| [betting-wagers.md](references/betting-wagers.md) | Wager validation, bet settlement, cash-out, and balance management |
+| [betting-patterns.md](references/betting-patterns.md) | Casino game sync, in-play patterns, responsible gambling, and compliance |
 
 ## Key Implementation Requirements
 

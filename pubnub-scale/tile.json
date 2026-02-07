@@ -1,6 +1,6 @@
 {
   "name": "pubnub/pubnub-scale",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "summary": "Scale PubNub applications for high-volume real-time events",
   "skills": {

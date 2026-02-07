@@ -1,6 +1,6 @@
 {
   "name": "pubnub/pubnub-app-developer",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "summary": "Build real-time applications with PubNub pub/sub messaging",
   "skills": {

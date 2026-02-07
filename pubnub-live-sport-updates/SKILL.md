@@ -4,7 +4,7 @@ description: Deliver real-time sports scores, play-by-play, and scoreboards with
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, live sports, play-by-play, scores, scoreboard, fan engagement, standings, game events, multi-sport
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `sport-updates-setup.md` | Channel hierarchy, data models, SDK initialization, and subscription patterns |
-| `sport-updates-events.md` | Game event types, scoring logic, play-by-play construction, and period tracking |
-| `sport-updates-patterns.md` | Multi-sport dashboards, fan engagement, push notifications, and scaling strategies |
+| [sport-updates-setup.md](references/sport-updates-setup.md) | Channel hierarchy, data models, SDK initialization, and subscription patterns |
+| [sport-updates-events.md](references/sport-updates-events.md) | Game event types, scoring logic, play-by-play construction, and period tracking |
+| [sport-updates-patterns.md](references/sport-updates-patterns.md) | Multi-sport dashboards, fan engagement, push notifications, and scaling strategies |
 
 ## Key Implementation Requirements
 

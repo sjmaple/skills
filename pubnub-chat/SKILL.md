@@ -4,7 +4,7 @@ description: Build chat applications with PubNub Chat SDK
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, chat, messaging, dm, group chat, typing, reactions, threads
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `chat-setup.md` | Chat SDK initialization and configuration |
-| `chat-features.md` | Channels, messages, reactions, typing indicators |
-| `chat-patterns.md` | User management, channel types, real-time sync |
+| [chat-setup.md](references/chat-setup.md) | Chat SDK initialization and configuration |
+| [chat-features.md](references/chat-features.md) | Channels, messages, reactions, typing indicators |
+| [chat-patterns.md](references/chat-patterns.md) | User management, channel types, real-time sync |
 
 ## Key Implementation Requirements
 

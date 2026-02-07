@@ -4,7 +4,7 @@ description: Deliver real-time stock quotes and market data with PubNub
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, stocks, market data, quotes, ticker, portfolio, price alerts, financial
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `stock-quotes-setup.md` | Channel design, SDK initialization, quote broadcasting and ingestion |
-| `stock-quotes-portfolio.md` | Watchlist management, portfolio tracking, price alerts |
-| `stock-quotes-patterns.md` | Ticker displays, charting, market hours, entitlements, compliance |
+| [stock-quotes-setup.md](references/stock-quotes-setup.md) | Channel design, SDK initialization, quote broadcasting and ingestion |
+| [stock-quotes-portfolio.md](references/stock-quotes-portfolio.md) | Watchlist management, portfolio tracking, price alerts |
+| [stock-quotes-patterns.md](references/stock-quotes-patterns.md) | Ticker displays, charting, market hours, entitlements, compliance |
 
 ## Key Implementation Requirements
 

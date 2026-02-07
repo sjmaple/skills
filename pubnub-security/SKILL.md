@@ -4,7 +4,7 @@ description: Secure PubNub applications with Access Manager, encryption, and TLS
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, security, access manager, pam, encryption, aes, tls, auth
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `access-manager.md` | PAM setup, token grants, permissions |
-| `encryption.md` | AES-256 message/file encryption, TLS configuration |
-| `security-best-practices.md` | Key security, auth patterns, compliance |
+| [access-manager.md](references/access-manager.md) | PAM setup, token grants, permissions |
+| [encryption.md](references/encryption.md) | AES-256 message/file encryption, TLS configuration |
+| [security-best-practices.md](references/security-best-practices.md) | Key security, auth patterns, compliance |
 
 ## Key Implementation Requirements
 

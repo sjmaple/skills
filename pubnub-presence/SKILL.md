@@ -4,7 +4,7 @@ description: Implement real-time presence tracking with PubNub
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, presence, online, offline, occupancy, status, users
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `presence-setup.md` | Presence configuration and Admin Portal setup |
-| `presence-events.md` | Handling join/leave/timeout events |
-| `presence-patterns.md` | Best practices for scalable presence |
+| [presence-setup.md](references/presence-setup.md) | Presence configuration and Admin Portal setup |
+| [presence-events.md](references/presence-events.md) | Handling join/leave/timeout events |
+| [presence-patterns.md](references/presence-patterns.md) | Best practices for scalable presence |
 
 ## Key Implementation Requirements
 

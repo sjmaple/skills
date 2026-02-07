@@ -4,7 +4,7 @@ description: Build real-time applications with PubNub pub/sub messaging
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, pubsub, real-time, messaging, channels, subscribe, publish, websocket, sse, multiplayer, communication
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `publish-subscribe.md` | Core pub/sub patterns, message flow, and best practices |
-| `channels.md` | Channel naming, wildcards, groups, and design patterns |
-| `sdk-patterns.md` | Cross-platform SDK initialization and configuration |
+| [publish-subscribe.md](references/publish-subscribe.md) | Core pub/sub patterns, message flow, and best practices |
+| [channels.md](references/channels.md) | Channel naming, wildcards, groups, and design patterns |
+| [sdk-patterns.md](references/sdk-patterns.md) | Cross-platform SDK initialization and configuration |
 
 ## Key Implementation Requirements
 

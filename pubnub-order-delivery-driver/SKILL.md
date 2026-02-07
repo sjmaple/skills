@@ -4,7 +4,7 @@ description: Build real-time order tracking and delivery driver systems with Pub
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, delivery, order tracking, driver location, dispatch, fleet, logistics, eta
   role: specialist
@@ -40,9 +40,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `delivery-setup.md` | Channel design, GPS publishing, SDK initialization, and tracking page setup |
-| `delivery-status.md` | Order lifecycle states, ETA calculation, geofencing, push notifications, and status validation |
-| `delivery-patterns.md` | Dispatch coordination, driver-customer chat, fleet dashboards, privacy controls, and proof of delivery |
+| [delivery-setup.md](references/delivery-setup.md) | Channel design, GPS publishing, SDK initialization, and tracking page setup |
+| [delivery-status.md](references/delivery-status.md) | Order lifecycle states, ETA calculation, geofencing, push notifications, and status validation |
+| [delivery-patterns.md](references/delivery-patterns.md) | Dispatch coordination, driver-customer chat, fleet dashboards, privacy controls, and proof of delivery |
 
 ## Key Implementation Requirements
 

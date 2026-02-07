@@ -4,7 +4,7 @@ description: Build real-time voting and polling systems with PubNub
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.0"
+  version: "0.1.2"
   domain: real-time
   triggers: pubnub, voting, polls, tally, results, survey, live poll, audience response
   role: specialist
@@ -39,9 +39,9 @@ Invoke this skill when:
 
 | Reference | Purpose |
 |-----------|---------|
-| `voting-setup.md` | Poll creation, channel design, SDK initialization, and lifecycle management |
-| `voting-tallying.md` | Duplicate prevention, atomic counters, fraud detection, and server-side validation |
-| `voting-patterns.md` | Result broadcasting, multi-round voting, weighted votes, and audience response systems |
+| [voting-setup.md](references/voting-setup.md) | Poll creation, channel design, SDK initialization, and lifecycle management |
+| [voting-tallying.md](references/voting-tallying.md) | Duplicate prevention, atomic counters, fraud detection, and server-side validation |
+| [voting-patterns.md](references/voting-patterns.md) | Result broadcasting, multi-round voting, weighted votes, and audience response systems |
 
 ## Key Implementation Requirements
 
