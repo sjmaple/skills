@@ -1,8 +1,8 @@
 {
   "name": "pubnub/pubnub-functions",
-  "version": "0.1.2",
+  "version": "0.2.2",
   "private": false,
-  "summary": "Develop serverless edge functions with PubNub Functions 2.0",
+  "summary": "Create, configure, and deploy PubNub Functions 2.0 event handlers, triggers, and serverless endpoints. Use when building real-time message transformations, PubNub modules, webhook integrations, or edge data processing.",
   "skills": {
     "pubnub-functions": {
       "path": "SKILL.md"

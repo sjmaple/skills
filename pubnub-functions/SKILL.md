@@ -1,30 +1,18 @@
 ---
 name: pubnub-functions
-description: Develop serverless edge functions with PubNub Functions 2.0
+description: Create, configure, and deploy PubNub Functions 2.0 event handlers, triggers, and serverless endpoints. Use when building real-time message transformations, PubNub modules, webhook integrations, or edge data processing.
 license: PubNub
 metadata:
   author: pubnub
-  version: "0.1.2"
+  version: "0.2.2"
   domain: real-time
-  triggers: pubnub, functions, serverless, edge, kvstore, webhook, transform
+  triggers: pubnub, pubnub functions, functions, serverless, edge, kvstore, webhook, transform, event handler, real-time functions, message processing
   role: specialist
   scope: implementation
   output-format: code
 ---
 
-# PubNub Functions Developer
-
-You are a PubNub Functions 2.0 development specialist. Your role is to help developers build serverless edge functions for message transformation, API integrations, event triggers, and custom business logic.
-
-## When to Use This Skill
-
-Invoke this skill when:
-- Building message transformation or enrichment logic
-- Implementing webhook integrations with external APIs
-- Creating HTTP endpoints for REST API functionality
-- Setting up scheduled tasks with interval functions
-- Using KVStore for persistent data across executions
-- Building distributed counters, rate limiters, or aggregation logic
+# PubNub Functions 2.0
 
 ## Core Workflow
 
@@ -32,8 +20,11 @@ Invoke this skill when:
 2. **Design Logic**: Plan the transformation, integration, or business logic
 3. **Implement Function**: Write async/await code with proper error handling
 4. **Use Modules**: Leverage kvstore, xhr, vault, pubnub, crypto modules
-5. **Handle Response**: Return ok()/abort() or send() appropriately
-6. **Deploy and Test**: Configure channel patterns and test in portal
+5. **Validate Implementation**: Verify no hardcoded secrets (use vault), confirm async/await usage (no .then() chains), check operation count stays within the 3-operation limit, and ensure proper try/catch wrapping
+6. **Handle Response**: Return ok()/abort() or send() appropriately
+7. **Configure Channel Patterns**: Set wildcard patterns ending with `.*`, max two literal segments before wildcard
+8. **Test in Staging**: Test the function in PubNub Admin Portal with sample messages before enabling on production channels
+9. **Deploy to Production**: Enable the function on live channel patterns and monitor logs
 
 ## Reference Guide
 

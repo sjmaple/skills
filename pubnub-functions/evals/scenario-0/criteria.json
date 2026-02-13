@@ -1,0 +1,21 @@
+{
+  "context": "Tests whether the agent uses the vault module for secret storage instead of hardcoding API keys. PubNub Functions require secrets to be stored in vault and retrieved at runtime.",
+  "type": "weighted_checklist",
+  "checklist": [
+    {
+      "name": "Imports vault module",
+      "description": "Code includes require('vault') to import the vault module",
+      "max_score": 30
+    },
+    {
+      "name": "Retrieves key from vault",
+      "description": "Uses await vault.get() to retrieve the webhook URL at runtime instead of hardcoding it as a string literal",
+      "max_score": 40
+    },
+    {
+      "name": "No hardcoded secrets",
+      "description": "The webhook URL does not appear as a string literal anywhere in the function code",
+      "max_score": 30
+    }
+  ]
+}

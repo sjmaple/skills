@@ -1,0 +1,21 @@
+{
+  "context": "Tests whether the agent selects the correct PubNub messaging method. publish delivers to subscribers and stores in history, fire triggers functions only without subscriber delivery, and signal is lightweight with no persistence. Choosing the wrong method causes either unnecessary subscriber notifications or missed function triggers.",
+  "type": "weighted_checklist",
+  "checklist": [
+    {
+      "name": "Uses fire for analytics",
+      "description": "Uses pubnub.fire() (not publish or signal) for the internal analytics event, since analytics should trigger downstream functions without notifying subscribers",
+      "max_score": 45
+    },
+    {
+      "name": "Uses signal for typing",
+      "description": "Uses pubnub.signal() (not publish) for the typing indicator, since typing status is ephemeral and should not be stored in history",
+      "max_score": 35
+    },
+    {
+      "name": "Correct module import",
+      "description": "Imports the pubnub module with require('pubnub')",
+      "max_score": 20
+    }
+  ]
+}

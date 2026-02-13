@@ -1,0 +1,44 @@
+{
+  "infeasible_capabilities": [
+    {
+      "capability_id": 10,
+      "name": "Channel wildcard patterns",
+      "reason": "Channel pattern configuration is a portal setting, not a code output. Cannot be evaluated from generated file content alone."
+    },
+    {
+      "capability_id": 3,
+      "name": "Async/await over promises",
+      "reason": "Tested implicitly in every other scenario. A dedicated scenario would overlap with all existing tests."
+    },
+    {
+      "capability_id": 1,
+      "name": "Try-catch wrapping",
+      "reason": "Tested implicitly in every other scenario. A dedicated scenario would overlap with all existing tests."
+    },
+    {
+      "capability_id": 0,
+      "name": "Default async export",
+      "reason": "Tested implicitly in every other scenario. A dedicated scenario would overlap with all existing tests."
+    },
+    {
+      "capability_id": 9,
+      "name": "KVStore TTL management",
+      "reason": "TTL correctness depends on business requirements and cannot be evaluated as a binary pass/fail without arbitrary threshold choices."
+    },
+    {
+      "capability_id": 13,
+      "name": "Message transformation",
+      "reason": "Tested implicitly in scenarios 1, 4, and 5 where request.message is enriched with computed data."
+    },
+    {
+      "capability_id": 14,
+      "name": "XHR webhook integration",
+      "reason": "Tested in scenario 0 (Slack webhook). A separate scenario would duplicate the same xhr.fetch pattern."
+    },
+    {
+      "capability_id": 6,
+      "name": "HTTP endpoint structure",
+      "reason": "Tested in scenario 3 (CORS endpoint). The On Request signature is the core of that scenario."
+    }
+  ]
+}

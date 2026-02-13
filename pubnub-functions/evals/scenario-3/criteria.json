@@ -1,0 +1,26 @@
+{
+  "context": "Tests whether the agent implements proper HTTP endpoint structure for PubNub On Request functions, including CORS headers and OPTIONS preflight handling required for browser-based clients.",
+  "type": "weighted_checklist",
+  "checklist": [
+    {
+      "name": "On Request signature",
+      "description": "Uses export default async (request, response) => {} with both request and response parameters",
+      "max_score": 25
+    },
+    {
+      "name": "CORS headers set",
+      "description": "Sets Access-Control-Allow-Origin and Access-Control-Allow-Methods on response.headers",
+      "max_score": 25
+    },
+    {
+      "name": "OPTIONS preflight",
+      "description": "Handles OPTIONS method separately by returning an empty 200 response for CORS preflight requests",
+      "max_score": 25
+    },
+    {
+      "name": "Uses response.send",
+      "description": "Returns responses using response.send(body, statusCode) with appropriate HTTP status codes",
+      "max_score": 25
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "context": "Tests whether the agent respects the 3 combined operations per execution limit in PubNub Functions. Each KV, XHR, or publish call counts as one operation. Functions exceeding this limit will fail at runtime.",
+  "type": "weighted_checklist",
+  "checklist": [
+    {
+      "name": "Within operation limit",
+      "description": "The function uses at most 3 combined async operations (any combination of KVStore calls, XHR fetches, and PubNub publish/fire/signal calls)",
+      "max_score": 50
+    },
+    {
+      "name": "Acknowledges constraint",
+      "description": "Code comments or accompanying explanation mentions the operation limit, or the implementation clearly demonstrates awareness by combining or minimizing operations",
+      "max_score": 25
+    },
+    {
+      "name": "Correct function structure",
+      "description": "Uses export default async with try/catch and proper ok()/abort() returns",
+      "max_score": 25
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "context": "Tests whether the agent uses KVStore atomic counter operations (incrCounter/getCounter) for counting instead of a non-atomic get+increment+set pattern. PubNub Functions execute at the edge with concurrent requests, so non-atomic counting will produce incorrect results under load.",
+  "type": "weighted_checklist",
+  "checklist": [
+    {
+      "name": "Uses incrCounter",
+      "description": "Uses db.incrCounter() for incrementing the count, not a manual get() + set() pattern",
+      "max_score": 45
+    },
+    {
+      "name": "Imports kvstore",
+      "description": "Imports the kvstore module with require('kvstore')",
+      "max_score": 20
+    },
+    {
+      "name": "Returns count to client",
+      "description": "Enriches the message with the current count value by setting it on request.message",
+      "max_score": 35
+    }
+  ]
+}
